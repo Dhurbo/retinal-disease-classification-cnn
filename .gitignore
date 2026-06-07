@@ -1,0 +1,113 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables, API keys, and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account*.json
+firebase-adminsdk*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files
+dataset/
+datasets/
+data/
+raw_data/
+processed_data/
+dataset.zip
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained models and ML checkpoints
+models/
+model/
+saved_model/
+checkpoints/
+checkpoint/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.pb
+*.tflite
+*.bin
+
+# Training, experiment, and prediction outputs
+runs/
+outputs/
+output/
+results/
+predictions/
+generated/
+artifacts/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+logs/
+*.log
+
+# Notebook and coverage outputs
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary, backup, and autosave files
+*.tmp
+*.temp
+*.bak
+*.bkp
+~$*
+.$*
+.cache/
